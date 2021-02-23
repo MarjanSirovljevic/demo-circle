@@ -7,3 +7,7 @@ test('1 plus 2 equals to 3', function() {
 test('1 plus 3 equals to 5', function() {
     expect(sum(3, 5)).toBe(8);
 });
+
+test('5 plus 10 equals to 14', function() {
+    expect(sum(5, 10)).toBe(14);
+});
